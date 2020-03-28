@@ -6,6 +6,9 @@ Library/
 Obj/
 UnityGenerated/
 Library/
+Logs/
+Packages/
+unityProject.vrmanifest
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
