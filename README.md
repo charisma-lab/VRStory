@@ -15,7 +15,8 @@ A repo to track updates to the VR Story project.
 
 
 ## Changelog
-03/25/20 - Intial Commit with most assets for the first two scenes and some assets for the third scene.
-03/31/20 - Added ceiling to classroom in intro scene, organized assets into heirarchies and fixed lighting.
-03/31/20 - Added branch for oculus testing.
-04/02/20 - Added door opening and closing animations to intro scene.
+03/25/20 - Intial Commit with most assets for the first two scenes and some assets for the third scene. (Chinmay)  
+03/31/20 - Added ceiling to classroom in intro scene, organized assets into heirarchies and fixed lighting. (Chinmay)  
+03/31/20 - Added branch for oculus testing. (Oscar)  
+04/02/20 - Added door opening and closing animations to intro scene. (Chinmay)  
+04/03/20 - Figured out how to add sound(s) to a GameObject and to different time stamps in animations. Added door opening and closing sounds. (Chinmay)  
