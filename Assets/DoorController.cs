@@ -23,15 +23,17 @@ public class DoorController : MonoBehaviour
         if (Input.GetKeyDown("o") && !doorOpen)
         {
             anim.Play("door_opening");
-            //door_sound.clip = door_open;
-            //door_sound.Play();
+            // Following two lines, call a sound but after the animation. Current implementation uses event handler functions below.
+            // door_sound.clip = door_open;
+            // door_sound.Play();
             doorOpen = true;
         }
         if (Input.GetKeyDown("c") && doorOpen)
         {
             anim.Play("door_closing");
-            //door_sound.clip = door_close;
-            //door_sound.Play();
+            // Following two lines, call a sound but after the animation. Current implementation uses event handler functions below.
+            // door_sound.clip = door_close;
+            // door_sound.Play();
             doorOpen = false;
         }
     }
