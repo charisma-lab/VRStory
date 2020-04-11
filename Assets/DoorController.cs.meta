@@ -3,7 +3,11 @@ guid: c9f02aba721eace4e826351c6736790e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - anim: {instanceID: 0}
+  - door_open: {fileID: 8300000, guid: 32619193d0247754ab033754d196cc17, type: 3}
+  - door_close: {fileID: 8300000, guid: 83941f98d9e954545bbd782b990e8897, type: 3}
+  - door_sound: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
