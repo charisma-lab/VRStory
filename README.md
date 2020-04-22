@@ -21,3 +21,4 @@ A repo to track updates to the VR Story project.
 04/02/20 - Added door opening and closing animations to intro scene. (Chinmay)  
 04/03/20 - Figured out how to add sound(s) to a GameObject and to different time stamps in animations. Added door opening and closing sounds. (Chinmay)  
 04/09/20 - Added branch for repairshop scene. (Neranjan)  
+04/21/20 - Added a branch for a new repairshop scene. (Neranjan)
