@@ -83,6 +83,7 @@ ModelImporter:
     100154: Toe.L_end
     100156: Toe.R
     100158: Toe.R_end
+    100160: female_hair
     400000: Chest
     400002: Clavicle.L
     400004: Clavicle.R
@@ -163,6 +164,7 @@ ModelImporter:
     400154: Toe.L_end
     400156: Toe.R
     400158: Toe.R_end
+    400160: female_hair
     2100000: Palette.002
     2100002: Palette
     4300000: female_shirt
@@ -178,8 +180,11 @@ ModelImporter:
     4300020: female_head
     4300022: female_chest
     4300024: female_arm
+    4300026: female_hair
     7400000: hips|Idle
     7400002: hips|T_Pose
+    7400004: hips|Idle.001
+    7400006: hips|T_Pose.001
     9500000: //RootNode
     13700000: female_accessory
     13700002: female_arm
@@ -194,6 +199,7 @@ ModelImporter:
     13700020: female_shirt
     13700022: female_shoes
     13700024: female_spine
+    13700026: female_hair
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -201,7 +207,7 @@ ModelImporter:
       name: Palette
     second: {fileID: 2100000, guid: 3f3d17836a87ae942ac524d7020ac829, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -261,7 +267,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

@@ -75,6 +75,7 @@ ModelImporter:
     100138: Toe.L_end
     100140: Toe.R
     100142: Toe.R_end
+    100144: male_hair_6
     400000: Chest
     400002: Clavicle.L
     400004: Clavicle.R
@@ -147,18 +148,25 @@ ModelImporter:
     400138: Toe.L_end
     400140: Toe.R
     400142: Toe.R_end
+    400144: male_hair_6
     2100000: Palette
     4300000: male_shoes_6
     4300002: male_pants_6
     4300004: male_head_6
     4300006: male_hat_6
     4300008: male_shirt_6
+    4300010: male_hair_6
+    7400000: hips|Idle
+    7400002: hips|T_Pose
+    7400004: hips|Idle.001
+    7400006: hips|T_Pose.001
     9500000: //RootNode
     13700000: male_hat_6
     13700002: male_head_6
     13700004: male_pants_6
     13700006: male_shirt_6
     13700008: male_shoes_6
+    13700010: male_hair_6
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -167,7 +175,7 @@ ModelImporter:
       name: Palette
     second: {fileID: 2100000, guid: 3f3d17836a87ae942ac524d7020ac829, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -224,10 +232,10 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 1
   humanDescription:
     serializedVersion: 2

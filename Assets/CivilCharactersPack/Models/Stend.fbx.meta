@@ -4,11 +4,25 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Camera
+    100004: CircleScene
+    100006: Light
     400000: //RootNode
+    400002: Camera
+    400004: CircleScene
+    400006: Light
+    2000000: Camera
     2100000: Palette
+    2100002: No Name
     2300000: //RootNode
+    2300002: CircleScene
     3300000: //RootNode
+    3300002: CircleScene
     4300000: Cylinder
+    4300002: CircleScene
+    4300004: Plane
+    4300006: Stend
+    10800000: Light
   externalObjects:
   - first:
       type: UnityEngine:Material

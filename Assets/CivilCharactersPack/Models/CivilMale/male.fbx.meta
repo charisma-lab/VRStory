@@ -331,6 +331,9 @@ ModelImporter:
       1: 100216
     second: male_leg
   - first:
+      1: 100218
+    second: male_hair
+  - first:
       4: 400000
     second: Chest
   - first:
@@ -658,6 +661,9 @@ ModelImporter:
       4: 400216
     second: male_leg
   - first:
+      4: 400218
+    second: male_hair
+  - first:
       21: 2100000
     second: ColorPick
   - first:
@@ -745,11 +751,14 @@ ModelImporter:
       43: 4300050
     second: male_leg
   - first:
+      43: 4300052
+    second: male_hair
+  - first:
       74: 7400000
-    second: hips|Idle
+    second: Idle
   - first:
       74: 7400002
-    second: hips|T_Pose
+    second: T_Pose
   - first:
       74: 7400004
     second: hips|Walk
@@ -835,6 +844,9 @@ ModelImporter:
       137: 13700050
     second: male_leg
   - first:
+      137: 13700052
+    second: male_hair
+  - first:
       41386430: 2186277476908879412
     second: ImportLogs
   externalObjects:
@@ -871,7 +883,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: hips|Idle
+      name: Idle
       takeName: hips|Idle
       internalID: 0
       firstFrame: 0
@@ -900,7 +912,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: hips|T_Pose
+      name: T_Pose
       takeName: hips|T_Pose
       internalID: 0
       firstFrame: 0
@@ -961,11 +973,12 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips:
-  - 17040c9a33f6d1740bb42c40bd91cb5b
+  - 7a1a4f4a8d8034d478139b1de62cf682
+  - 4006a92d0eb6fee4db124db38541b7fa
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

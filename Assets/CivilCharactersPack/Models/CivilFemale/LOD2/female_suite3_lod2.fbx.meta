@@ -75,6 +75,7 @@ ModelImporter:
     100138: Toe.L_end
     100140: Toe.R
     100142: Toe.R_end
+    100144: female_hair3
     400000: Chest
     400002: Clavicle.L
     400004: Clavicle.R
@@ -147,6 +148,7 @@ ModelImporter:
     400138: Toe.L_end
     400140: Toe.R
     400142: Toe.R_end
+    400144: female_hair3
     2100000: Palette
     2100002: Glass
     4300000: female_accessory
@@ -154,12 +156,18 @@ ModelImporter:
     4300004: female_pants3
     4300006: female_head3
     4300008: female_shirt3
+    4300010: female_hair3
+    7400000: hips|Idle
+    7400002: hips|Idle.001
+    7400004: hips|T_Pose
+    7400006: hips|T_Pose.001
     9500000: //RootNode
     13700000: female_accessory
     13700002: female_head3
     13700004: female_pants3
     13700006: female_shirt3
     13700008: female_shoes3
+    13700010: female_hair3
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -232,7 +240,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 1
   humanDescription:
     serializedVersion: 2

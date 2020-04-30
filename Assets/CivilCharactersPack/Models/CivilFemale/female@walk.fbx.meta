@@ -6,274 +6,228 @@ ModelImporter:
     100000: Chest
     100002: Clavicle.L
     100004: Clavicle.R
-    100006: famale_accessory
-    100008: famale_arm
-    100010: famale_chest
-    100012: famale_feet
-    100014: famale_forearm
-    100016: famale_hat
-    100018: famale_head
-    100020: famale_legs
-    100022: famale_pants
-    100024: famale_pelvis
-    100026: famale_shirt
-    100028: famale_shoes
-    100030: famale_spine
-    100032: //RootNode
-    100034: Foot.L
-    100036: Foot.R
-    100038: Forearm.L
-    100040: Forearm.R
-    100042: Hand.L
-    100044: Hand.R
-    100046: Head
-    100048: Head_end
-    100050: hips
-    100052: Index.1.L
-    100054: Index.1.R
-    100056: Index.2.L
-    100058: Index.2.R
-    100060: Index.3.L
-    100062: Index.3.L_end
-    100064: Index.3.R
-    100066: Index.3.R_end
-    100068: Little.1.L
-    100070: Little.1.R
-    100072: Little.2.R
-    100074: Little.3.L
-    100076: Little.3.L_end
-    100078: Little.3.R
-    100080: Little.3.R_end
-    100082: little_l_2
-    100084: Middle.1.L
-    100086: Middle.1.R
-    100088: Middle.2.L
-    100090: Middle.2.R
-    100092: Middle.3.L
-    100094: Middle.3.L_end
-    100096: Middle.3.R
-    100098: Middle.3.R_end
-    100100: Neck
-    100102: Ring.1.L
-    100104: Ring.1.R
-    100106: Ring.2.L
-    100108: Ring.2.R
-    100110: Ring.3.L
-    100112: Ring.3.L_end
-    100114: Ring.3.R
-    100116: Ring.3.R_end
-    100118: Root
-    100120: Shin.L
-    100122: Shin.R
-    100124: Shoulder.L
-    100126: Shoulder.R
-    100128: Spine1
-    100130: Spine2
-    100132: Thigh.L
-    100134: Thigh.R
-    100136: Thumb.1.L
-    100138: Thumb.1.R
-    100140: Thumb.2.L
-    100142: Thumb.2.R
-    100144: Thumb.3.L
-    100146: Thumb.3.L_end
-    100148: Thumb.3.R
-    100150: Thumb.3.R_end
-    100152: Toe.L
-    100154: Toe.L_end
-    100156: Toe.R
-    100158: Toe.R_end
-    100160: female_accessory
-    100162: female_arm
-    100164: female_chest
-    100166: female_feet
-    100168: female_forearm
-    100170: female_hat
-    100172: female_head
-    100174: female_legs
-    100176: female_pants
-    100178: female_pelvis
-    100180: female_shirt
-    100182: female_shoes
-    100184: female_spine
-    100186: Head_end_end
-    100188: Index.3.L_end_end
-    100190: Index.3.R_end_end
-    100192: Little.3.L_end_end
-    100194: Little.3.R_end_end
-    100196: Middle.3.L_end_end
-    100198: Middle.3.R_end_end
-    100200: Ring.3.L_end_end
-    100202: Ring.3.R_end_end
-    100204: Thumb.3.L_end_end
-    100206: Thumb.3.R_end_end
-    100208: Toe.L_end_end
-    100210: Toe.R_end_end
+    100006: //RootNode
+    100008: female_accessory
+    100010: female_arm
+    100012: female_chest
+    100014: female_feet
+    100016: female_forearm
+    100018: female_hair
+    100020: female_hat
+    100022: female_head
+    100024: female_legs
+    100026: female_pants
+    100028: female_pelvis
+    100030: female_shirt
+    100032: female_shoes
+    100034: female_spine
+    100036: Foot.L
+    100038: Foot.R
+    100040: Forearm.L
+    100042: Forearm.R
+    100044: Hand.L
+    100046: Hand.R
+    100048: Head
+    100050: Head_end
+    100052: hips
+    100054: Index.1.L
+    100056: Index.1.R
+    100058: Index.2.L
+    100060: Index.2.R
+    100062: Index.3.L
+    100064: Index.3.L_end
+    100066: Index.3.R
+    100068: Index.3.R_end
+    100070: Little.1.L
+    100072: Little.1.R
+    100074: Little.2.R
+    100076: Little.3.L
+    100078: Little.3.L_end
+    100080: Little.3.R
+    100082: Little.3.R_end
+    100084: little_l_2
+    100086: Middle.1.L
+    100088: Middle.1.R
+    100090: Middle.2.L
+    100092: Middle.2.R
+    100094: Middle.3.L
+    100096: Middle.3.L_end
+    100098: Middle.3.R
+    100100: Middle.3.R_end
+    100102: Neck
+    100104: Ring.1.L
+    100106: Ring.1.R
+    100108: Ring.2.L
+    100110: Ring.2.R
+    100112: Ring.3.L
+    100114: Ring.3.L_end
+    100116: Ring.3.R
+    100118: Ring.3.R_end
+    100120: Root
+    100122: Shin.L
+    100124: Shin.R
+    100126: Shoulder.L
+    100128: Shoulder.R
+    100130: Spine1
+    100132: Spine2
+    100134: Thigh.L
+    100136: Thigh.R
+    100138: Thumb.1.L
+    100140: Thumb.1.R
+    100142: Thumb.2.L
+    100144: Thumb.2.R
+    100146: Thumb.3.L
+    100148: Thumb.3.L_end
+    100150: Thumb.3.R
+    100152: Thumb.3.R_end
+    100154: Toe.L
+    100156: Toe.L_end
+    100158: Toe.R
+    100160: Toe.R_end
     400000: Chest
     400002: Clavicle.L
     400004: Clavicle.R
-    400006: famale_accessory
-    400008: famale_arm
-    400010: famale_chest
-    400012: famale_feet
-    400014: famale_forearm
-    400016: famale_hat
-    400018: famale_head
-    400020: famale_legs
-    400022: famale_pants
-    400024: famale_pelvis
-    400026: famale_shirt
-    400028: famale_shoes
-    400030: famale_spine
-    400032: //RootNode
-    400034: Foot.L
-    400036: Foot.R
-    400038: Forearm.L
-    400040: Forearm.R
-    400042: Hand.L
-    400044: Hand.R
-    400046: Head
-    400048: Head_end
-    400050: hips
-    400052: Index.1.L
-    400054: Index.1.R
-    400056: Index.2.L
-    400058: Index.2.R
-    400060: Index.3.L
-    400062: Index.3.L_end
-    400064: Index.3.R
-    400066: Index.3.R_end
-    400068: Little.1.L
-    400070: Little.1.R
-    400072: Little.2.R
-    400074: Little.3.L
-    400076: Little.3.L_end
-    400078: Little.3.R
-    400080: Little.3.R_end
-    400082: little_l_2
-    400084: Middle.1.L
-    400086: Middle.1.R
-    400088: Middle.2.L
-    400090: Middle.2.R
-    400092: Middle.3.L
-    400094: Middle.3.L_end
-    400096: Middle.3.R
-    400098: Middle.3.R_end
-    400100: Neck
-    400102: Ring.1.L
-    400104: Ring.1.R
-    400106: Ring.2.L
-    400108: Ring.2.R
-    400110: Ring.3.L
-    400112: Ring.3.L_end
-    400114: Ring.3.R
-    400116: Ring.3.R_end
-    400118: Root
-    400120: Shin.L
-    400122: Shin.R
-    400124: Shoulder.L
-    400126: Shoulder.R
-    400128: Spine1
-    400130: Spine2
-    400132: Thigh.L
-    400134: Thigh.R
-    400136: Thumb.1.L
-    400138: Thumb.1.R
-    400140: Thumb.2.L
-    400142: Thumb.2.R
-    400144: Thumb.3.L
-    400146: Thumb.3.L_end
-    400148: Thumb.3.R
-    400150: Thumb.3.R_end
-    400152: Toe.L
-    400154: Toe.L_end
-    400156: Toe.R
-    400158: Toe.R_end
-    400160: female_accessory
-    400162: female_arm
-    400164: female_chest
-    400166: female_feet
-    400168: female_forearm
-    400170: female_hat
-    400172: female_head
-    400174: female_legs
-    400176: female_pants
-    400178: female_pelvis
-    400180: female_shirt
-    400182: female_shoes
-    400184: female_spine
-    400186: Head_end_end
-    400188: Index.3.L_end_end
-    400190: Index.3.R_end_end
-    400192: Little.3.L_end_end
-    400194: Little.3.R_end_end
-    400196: Middle.3.L_end_end
-    400198: Middle.3.R_end_end
-    400200: Ring.3.L_end_end
-    400202: Ring.3.R_end_end
-    400204: Thumb.3.L_end_end
-    400206: Thumb.3.R_end_end
-    400208: Toe.L_end_end
-    400210: Toe.R_end_end
-    2100000: Palette.001
-    4300000: famale_accessory
-    4300002: famale_arm
-    4300004: famale_chest
-    4300006: famale_feet
-    4300008: famale_forearm
-    4300010: famale_hat
-    4300012: famale_head
-    4300014: famale_legs
-    4300016: famale_pants
-    4300018: famale_pelvis
-    4300020: famale_shirt
-    4300022: famale_shoes
-    4300024: famale_spine
-    4300026: female_shoes
-    4300028: female_pants
-    4300030: female_head
-    4300032: female_arm
-    4300034: female_accessory
-    4300036: female_feet
-    4300038: female_chest
-    4300040: female_spine
-    4300042: female_shirt
-    4300044: female_pelvis
-    4300046: female_legs
-    4300048: female_hat
-    4300050: female_forearm
-    7400000: walk
+    400006: //RootNode
+    400008: female_accessory
+    400010: female_arm
+    400012: female_chest
+    400014: female_feet
+    400016: female_forearm
+    400018: female_hair
+    400020: female_hat
+    400022: female_head
+    400024: female_legs
+    400026: female_pants
+    400028: female_pelvis
+    400030: female_shirt
+    400032: female_shoes
+    400034: female_spine
+    400036: Foot.L
+    400038: Foot.R
+    400040: Forearm.L
+    400042: Forearm.R
+    400044: Hand.L
+    400046: Hand.R
+    400048: Head
+    400050: Head_end
+    400052: hips
+    400054: Index.1.L
+    400056: Index.1.R
+    400058: Index.2.L
+    400060: Index.2.R
+    400062: Index.3.L
+    400064: Index.3.L_end
+    400066: Index.3.R
+    400068: Index.3.R_end
+    400070: Little.1.L
+    400072: Little.1.R
+    400074: Little.2.R
+    400076: Little.3.L
+    400078: Little.3.L_end
+    400080: Little.3.R
+    400082: Little.3.R_end
+    400084: little_l_2
+    400086: Middle.1.L
+    400088: Middle.1.R
+    400090: Middle.2.L
+    400092: Middle.2.R
+    400094: Middle.3.L
+    400096: Middle.3.L_end
+    400098: Middle.3.R
+    400100: Middle.3.R_end
+    400102: Neck
+    400104: Ring.1.L
+    400106: Ring.1.R
+    400108: Ring.2.L
+    400110: Ring.2.R
+    400112: Ring.3.L
+    400114: Ring.3.L_end
+    400116: Ring.3.R
+    400118: Ring.3.R_end
+    400120: Root
+    400122: Shin.L
+    400124: Shin.R
+    400126: Shoulder.L
+    400128: Shoulder.R
+    400130: Spine1
+    400132: Spine2
+    400134: Thigh.L
+    400136: Thigh.R
+    400138: Thumb.1.L
+    400140: Thumb.1.R
+    400142: Thumb.2.L
+    400144: Thumb.2.R
+    400146: Thumb.3.L
+    400148: Thumb.3.L_end
+    400150: Thumb.3.R
+    400152: Thumb.3.R_end
+    400154: Toe.L
+    400156: Toe.L_end
+    400158: Toe.R
+    400160: Toe.R_end
+    2100000: Palette
+    2300000: female_accessory
+    2300002: female_arm
+    2300004: female_chest
+    2300006: female_feet
+    2300008: female_forearm
+    2300010: female_hair
+    2300012: female_hat
+    2300014: female_head
+    2300016: female_legs
+    2300018: female_pants
+    2300020: female_pelvis
+    2300022: female_shirt
+    2300024: female_shoes
+    2300026: female_spine
+    3300000: female_accessory
+    3300002: female_arm
+    3300004: female_chest
+    3300006: female_feet
+    3300008: female_forearm
+    3300010: female_hair
+    3300012: female_hat
+    3300014: female_head
+    3300016: female_legs
+    3300018: female_pants
+    3300020: female_pelvis
+    3300022: female_shirt
+    3300024: female_shoes
+    3300026: female_spine
+    4300000: female_shirt
+    4300002: female_shoes
+    4300004: female_hat
+    4300006: female_accessory
+    4300008: female_pants
+    4300010: female_feet
+    4300012: female_hair
+    4300014: female_head
+    4300016: female_chest
+    4300018: female_arm
+    4300020: female_forearm
+    4300022: female_spine
+    4300024: female_pelvis
+    4300026: female_legs
+    7400000: FemaleWalk
     9500000: //RootNode
-    13700000: famale_accessory
-    13700002: famale_arm
-    13700004: famale_chest
-    13700006: famale_feet
-    13700008: famale_forearm
-    13700010: famale_hat
-    13700012: famale_head
-    13700014: famale_legs
-    13700016: famale_pants
-    13700018: famale_pelvis
-    13700020: famale_shirt
-    13700022: famale_shoes
-    13700024: famale_spine
-    13700026: female_accessory
-    13700028: female_arm
-    13700030: female_chest
-    13700032: female_feet
-    13700034: female_forearm
-    13700036: female_hat
-    13700038: female_head
-    13700040: female_legs
-    13700042: female_pants
-    13700044: female_pelvis
-    13700046: female_shirt
-    13700048: female_shoes
-    13700050: female_spine
+    13700000: female_accessory
+    13700002: female_arm
+    13700004: female_chest
+    13700006: female_feet
+    13700008: female_forearm
+    13700010: female_hair
+    13700012: female_hat
+    13700014: female_head
+    13700016: female_legs
+    13700018: female_pants
+    13700020: female_pelvis
+    13700022: female_shirt
+    13700024: female_shoes
+    13700026: female_spine
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -286,19 +240,12 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'hips|hips|hips|Walk|hips|Walk' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation DOF
-      on avatar to improve retargeting quality.\n\t'Thigh.R' has scale animation that
-      will be discarded.\n\t'Shin.R' has scale animation that will be discarded.\n\t'Foot.R'
-      has scale animation that will be discarded.\n\t'Toe.R' has scale animation that
-      will be discarded.\n\t'Thigh.L' has scale animation that will be discarded.\n\t'Shin.L'
-      has scale animation that will be discarded.\n\t'Foot.L' has scale animation
-      that will be discarded.\n\t'Toe.L' has scale animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -307,10 +254,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: walk
+      name: FemaleWalk
       takeName: hips|Walk
       firstFrame: 0
-      lastFrame: 29
+      lastFrame: 57
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -321,11 +268,11 @@ ModelImporter:
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 0
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
@@ -369,426 +316,10 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   importAnimation: 1
-  copyAvatar: 1
+  copyAvatar: 0
   humanDescription:
     serializedVersion: 2
-    human:
-    - boneName: Root
-      humanName: Hips
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thigh.L
-      humanName: LeftUpperLeg
-      limit:
-        min: {x: -60, y: -60, z: -90}
-        max: {x: 60, y: 60, z: 50}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 1
-    - boneName: Thigh.R
-      humanName: RightUpperLeg
-      limit:
-        min: {x: -60, y: -60, z: -90}
-        max: {x: 60, y: 60, z: 50}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 1
-    - boneName: Shin.L
-      humanName: LeftLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Shin.R
-      humanName: RightLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Foot.L
-      humanName: LeftFoot
-      limit:
-        min: {x: 0, y: -10, z: -50}
-        max: {x: 0, y: 10, z: 50}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 1
-    - boneName: Foot.R
-      humanName: RightFoot
-      limit:
-        min: {x: 0, y: -10, z: -50}
-        max: {x: 0, y: 10, z: 50}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 1
-    - boneName: Spine1
-      humanName: Spine
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Spine2
-      humanName: Chest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Neck
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Head
-      humanName: Head
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Clavicle.L
-      humanName: LeftShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Clavicle.R
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Shoulder.L
-      humanName: LeftUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Shoulder.R
-      humanName: RightUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Forearm.L
-      humanName: LeftLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Forearm.R
-      humanName: RightLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Hand.L
-      humanName: LeftHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Hand.R
-      humanName: RightHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Toe.L
-      humanName: LeftToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Toe.R
-      humanName: RightToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb.1.L
-      humanName: Left Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb.2.L
-      humanName: Left Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb.3.L
-      humanName: Left Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Index.1.L
-      humanName: Left Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Index.2.L
-      humanName: Left Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Index.3.L
-      humanName: Left Index Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Middle.1.L
-      humanName: Left Middle Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Middle.2.L
-      humanName: Left Middle Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Middle.3.L
-      humanName: Left Middle Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Ring.1.L
-      humanName: Left Ring Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Ring.2.L
-      humanName: Left Ring Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Ring.3.L
-      humanName: Left Ring Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Little.1.L
-      humanName: Left Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: little_l_2
-      humanName: Left Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Little.3.L
-      humanName: Left Little Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb.1.R
-      humanName: Right Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb.2.R
-      humanName: Right Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb.3.R
-      humanName: Right Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Index.1.R
-      humanName: Right Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Index.2.R
-      humanName: Right Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Index.3.R
-      humanName: Right Index Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Middle.1.R
-      humanName: Right Middle Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Middle.2.R
-      humanName: Right Middle Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Middle.3.R
-      humanName: Right Middle Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Ring.1.R
-      humanName: Right Ring Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Ring.2.R
-      humanName: Right Ring Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Ring.3.R
-      humanName: Right Ring Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Little.1.R
-      humanName: Right Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Little.2.R
-      humanName: Right Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Little.3.R
-      humanName: Right Little Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Chest
-      humanName: UpperChest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
+    human: []
     skeleton:
     - name: famale(Clone)
       parentName: 
@@ -1201,8 +732,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9c09c78ed1209974db369788b8305a24,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
   humanoidOversampling: 1
   additionalBone: 0

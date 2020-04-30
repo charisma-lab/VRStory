@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: 97a08167c3d3d284da93fa9992355180
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip002 Head
+  - first:
+      1: 100002
+    second: Bip002 L Calf
+  - first:
+      1: 100004
+    second: Bip002 L Clavicle
+  - first:
+      1: 100006
+    second: Bip002 L Foot
+  - first:
+      1: 100008
+    second: Bip002 L Forearm
+  - first:
+      1: 100010
+    second: Bip002 L Hand
+  - first:
+      1: 100012
+    second: Bip002 L HorseLink
+  - first:
+      1: 100014
+    second: Bip002 L Thigh
+  - first:
+      1: 100016
+    second: Bip002 L UpperArm
+  - first:
+      1: 100018
+    second: Bip002 Neck
+  - first:
+      1: 100020
+    second: Bip002 Pelvis
+  - first:
+      1: 100022
+    second: Bip002 R Calf
+  - first:
+      1: 100024
+    second: Bip002 R Clavicle
+  - first:
+      1: 100026
+    second: Bip002 R Foot
+  - first:
+      1: 100028
+    second: Bip002 R Forearm
+  - first:
+      1: 100030
+    second: Bip002 R Hand
+  - first:
+      1: 100032
+    second: Bip002 R HorseLink
+  - first:
+      1: 100034
+    second: Bip002 R Thigh
+  - first:
+      1: 100036
+    second: Bip002 R UpperArm
+  - first:
+      1: 100038
+    second: Bip002 Spine
+  - first:
+      1: 100040
+    second: Bip002 Spine1
+  - first:
+      1: 100042
+    second: Bip002 Spine2
+  - first:
+      1: 100044
+    second: Bip002 Tail
+  - first:
+      1: 100046
+    second: Bip003
+  - first:
+      1: 100048
+    second: Bip003 Footsteps
+  - first:
+      1: 100050
+    second: Bip003 HeadNub
+  - first:
+      1: 100052
+    second: Bip003 L Toe0
+  - first:
+      1: 100054
+    second: Bip003 L Toe0Nub
+  - first:
+      1: 100056
+    second: Bip003 Ponytail1
+  - first:
+      1: 100058
+    second: Bip003 Ponytail1Nub
+  - first:
+      1: 100060
+    second: Bip003 Ponytail2
+  - first:
+      1: 100062
+    second: Bip003 Ponytail2Nub
+  - first:
+      1: 100064
+    second: Bip003 R Toe0
+  - first:
+      1: 100066
+    second: Bip003 R Toe0Nub
+  - first:
+      1: 100068
+    second: Bip003 TailNub
+  - first:
+      1: 100070
+    second: Bone005
+  - first:
+      1: 100072
+    second: Bone006
+  - first:
+      1: 100074
+    second: Corgi
+  - first:
+      1: 100076
+    second: //RootNode
+  - first:
+      1: 100078
+    second: EarRightBase001
+  - first:
+      1: 100080
+    second: EarRightBase002
+  - first:
+      1: 100082
+    second: EarRightMiddle001
+  - first:
+      1: 100084
+    second: EarRightMiddle002
+  - first:
+      4: 400000
+    second: Bip002 Head
+  - first:
+      4: 400002
+    second: Bip002 L Calf
+  - first:
+      4: 400004
+    second: Bip002 L Clavicle
+  - first:
+      4: 400006
+    second: Bip002 L Foot
+  - first:
+      4: 400008
+    second: Bip002 L Forearm
+  - first:
+      4: 400010
+    second: Bip002 L Hand
+  - first:
+      4: 400012
+    second: Bip002 L HorseLink
+  - first:
+      4: 400014
+    second: Bip002 L Thigh
+  - first:
+      4: 400016
+    second: Bip002 L UpperArm
+  - first:
+      4: 400018
+    second: Bip002 Neck
+  - first:
+      4: 400020
+    second: Bip002 Pelvis
+  - first:
+      4: 400022
+    second: Bip002 R Calf
+  - first:
+      4: 400024
+    second: Bip002 R Clavicle
+  - first:
+      4: 400026
+    second: Bip002 R Foot
+  - first:
+      4: 400028
+    second: Bip002 R Forearm
+  - first:
+      4: 400030
+    second: Bip002 R Hand
+  - first:
+      4: 400032
+    second: Bip002 R HorseLink
+  - first:
+      4: 400034
+    second: Bip002 R Thigh
+  - first:
+      4: 400036
+    second: Bip002 R UpperArm
+  - first:
+      4: 400038
+    second: Bip002 Spine
+  - first:
+      4: 400040
+    second: Bip002 Spine1
+  - first:
+      4: 400042
+    second: Bip002 Spine2
+  - first:
+      4: 400044
+    second: Bip002 Tail
+  - first:
+      4: 400046
+    second: Bip003
+  - first:
+      4: 400048
+    second: Bip003 Footsteps
+  - first:
+      4: 400050
+    second: Bip003 HeadNub
+  - first:
+      4: 400052
+    second: Bip003 L Toe0
+  - first:
+      4: 400054
+    second: Bip003 L Toe0Nub
+  - first:
+      4: 400056
+    second: Bip003 Ponytail1
+  - first:
+      4: 400058
+    second: Bip003 Ponytail1Nub
+  - first:
+      4: 400060
+    second: Bip003 Ponytail2
+  - first:
+      4: 400062
+    second: Bip003 Ponytail2Nub
+  - first:
+      4: 400064
+    second: Bip003 R Toe0
+  - first:
+      4: 400066
+    second: Bip003 R Toe0Nub
+  - first:
+      4: 400068
+    second: Bip003 TailNub
+  - first:
+      4: 400070
+    second: Bone005
+  - first:
+      4: 400072
+    second: Bone006
+  - first:
+      4: 400074
+    second: //RootNode
+  - first:
+      4: 400076
+    second: Corgi
+  - first:
+      4: 400078
+    second: EarRightBase001
+  - first:
+      4: 400080
+    second: EarRightBase002
+  - first:
+      4: 400082
+    second: EarRightMiddle001
+  - first:
+      4: 400084
+    second: EarRightMiddle002
+  - first:
+      43: 4300000
+    second: Corgi
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Corgi
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corgi
+    second: {fileID: 2100000, guid: c87a08ad2e0b19b408ad91a31ca0481b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 9147a5422dc864545b0727d7e024ab33
+  - 0e7419e20ca1ddd4cada37faec595aa1
+  - c5c663a8be1b4cf4ba320a5f440c6ab2
+  - e33015f51d363a34081788b2b639bbc1
+  - 02318fc46b0801a488e5ba99332f2f92
+  - 4d799df4bb7cfc34ab93f2afd5e6cc0a
+  - 67cf11290991a9d46b7f0470d25874f0
+  - 4a3b93f6160caa44ba5f580a9cee9459
+  - 4329ffc7ed254014baf40a3c04754521
+  - a5ea0323ed8f49241bc0ff9791157054
+  - 05164af3c86dbae4e980a744de38bc19
+  - 44c319555d3b4c14195f45208a16c8c2
+  - 0d7ca8d11cfec44429584b730b4b1e62
+  - 57d14e5a62731a341bd1b93ed9a27ce4
+  - 8a75dd516891330478a6bc9774775b29
+  - 2bb3a0ac6e2fd114c8871089f6aa250f
+  - b8861e15c40ccb74b9b41b16b9ae0ce7
+  - bce9d7df6e97e8d4c9f84ddc6e858689
+  - ec44604e9e05c2a418fc04847c7adeb6
+  - c98603cc31e95594f8a8a941e869f35b
+  - 2c21557c5bcec3340b6165f60f2c63c6
+  - 2d68647cebab5614d82115b581f52fb3
+  - 81ea7afb83f0ad349aa2858bf930ba0f
+  - bea8ac159c5ff6d42bd533b4bb6be8d0
+  - 4872707e2593a5040a69c92907b7f355
+  - ca25ef4f974718745bf646418b4b6d0f
+  - 3b0d133967273ba44bed422534cda316
+  - 3f5dbcb5f003444458d92b6c3ed38949
+  - 85fefb6ab352c6441a0e16407b210590
+  - 2f60ebe9cf02ae448a880327770a0b32
+  - f240c9321ed67274eb185dd12ed6fce9
+  - 2e35f3c868d075d47a0c728ec6e3495c
+  - e75affef80846774db608a0ffaa043df
+  - a40d2357e0e0f1a4781cea4cd06197f9
+  - b357a695868ee67428f0587995f35d0b
+  - 9bff914c24d98e546a75e8edde401ac3
+  - bd7339449a15fb24caf4958428d1404a
+  - b66f55b0f6bc1c04eb77134bb98c883e
+  - cb8b0e0e86afcfd46bcb51ef569a8bdd
+  - 5b519cebc725a534ba2cbd3e9f61e83f
+  - 4626c8c3b7756fe489ffc177c43abb76
+  - 058a9afa362f0254fb0ecabf8729d219
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
