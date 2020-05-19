@@ -6,6 +6,8 @@ public class female_villain_controller : MonoBehaviour
 {
     public Animator anim;   // ref to female villain's animator
     public bool villainMoving = false;  // to prevent double taps
+    public GameObject theNote;
+    public GameObject theBackpack;
 
     // Start is called before the first frame update
     void Start()
@@ -28,5 +30,17 @@ public class female_villain_controller : MonoBehaviour
     void villainLeft()
     {
         villainMoving = false;
+    }
+
+    // Activate Note and 
+    void showNote()
+    { 
+        theNote.SetActive(true);
+    }
+
+    //Deactivate Backpack
+    void hideBackpack()
+    {
+        theBackpack.SetActive(false);
     }
 }
