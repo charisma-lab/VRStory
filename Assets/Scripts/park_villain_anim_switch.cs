@@ -24,19 +24,19 @@ public class park_villain_anim_switch : MonoBehaviour
             anim.Play("park_anim_gazebo");
         }
 
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("e"))
         {
             Debug.Log("Tree anim");
             anim.Play("park_anim_tree");
         }
 
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKeyDown("t"))
         {
             Debug.Log("run+throw");
             anim.Play("park_run_throw");
         }
 
-        if (Input.GetKeyDown("r"))
+        if (Input.GetKeyDown("u"))
         {
             Debug.Log("villain leaving");
             anim.Play("park_villain_leaves");
