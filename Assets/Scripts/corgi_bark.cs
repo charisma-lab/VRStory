@@ -5,6 +5,7 @@ using UnityEngine;
 public class corgi_bark : MonoBehaviour
 {
     public Animator anim;   // ref to corgi's animator
+    public AudioSource doggo_sound;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,7 @@ public class corgi_bark : MonoBehaviour
     // Play bark
     void park_27()
     {
-        doggo_sound.PlayOneShot(park27);
+        doggo_sound.Play();
     }
 
     /*
