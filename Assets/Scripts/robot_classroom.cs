@@ -6,6 +6,10 @@ public class robot_classroom : MonoBehaviour
 {
     public Animator anim;   // ref to robot's animator
     public UnityEngine.Renderer robotButtonRenderer;   // ref to robot's renderer
+    public AudioClip r11;
+    public AudioClip r12;
+    public AudioClip r13;
+    public AudioSource robot_voice;
 
     // Start is called before the first frame update
     void Start()
@@ -13,6 +17,8 @@ public class robot_classroom : MonoBehaviour
         anim = GetComponent<Animator>();
         // access the robot's wholebutton's button's renderer to be able to change the color of the button (parent child heirarchy)
         robotButtonRenderer = gameObject.transform.Find("WholeButton").transform.Find("Button").GetComponent<Renderer>();
+        // ref to robot's audio source
+        robot_voice = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -38,5 +44,19 @@ public class robot_classroom : MonoBehaviour
         // change button shader from Bush bark to Green
         robotButtonRenderer.material.SetColor("_Color", Color.green);
         //cubeRenderer.material.SetColor("_Color", Color.red);
+    }
+
+    // Robot's Dialogue functions, called from the animations
+    void robot11()
+    {
+        robot_voice.PlayOneShot(r11);
+    }
+    void robot12()
+    {
+        robot_voice.PlayOneShot(r12);
+    }
+    void robot13()
+    {
+        robot_voice.PlayOneShot(r13);
     }
 }

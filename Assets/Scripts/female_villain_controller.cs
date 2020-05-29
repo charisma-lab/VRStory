@@ -25,7 +25,7 @@ public class female_villain_controller : MonoBehaviour
             villainMoving = true;
             anim.Play("villain_classroom_turning");
             // also get the villain's friend to stop talking and being idle
-            friend.GetComponent<Animator>().Play("MaleIdle");
+            friend.GetComponent<Animator>().Play("friend_turns_away");
         }
     }
 
