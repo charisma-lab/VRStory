@@ -30,7 +30,7 @@ public class roboCop_park : MonoBehaviour
             anim.Play("roboCop_talkLater");
         }
 
-        if (Input.GetKeyDown("y"))
+        if (Input.GetKeyDown("t"))
         {
             Debug.Log("chase");
             anim.Play("roboCop_chase");
