@@ -5,9 +5,9 @@ using UnityEngine;
 public class roboCop_park : MonoBehaviour
 {
     public Animator anim;   // ref to female villain's animator
-    public bool villainMoving = false;  // to prevent double taps
-    public GameObject theNote;
-    public GameObject theBackpack;
+    // public bool villainMoving = false;  // to prevent double taps
+    // public GameObject theNote;
+    // public GameObject theBackpack;
     public AudioSource robo_sound;
 
     public AudioClip park21;

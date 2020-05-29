@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class corgi_bark : MonoBehaviour
 {
-    public Animator anim;   // ref to female villain's animator
-    public bool villainMoving = false;  // to prevent double taps
-    public GameObject theNote;
-    public GameObject theBackpack;
+    public Animator anim;   // ref to corgi's animator
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        doggo_sound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,6 +21,12 @@ public class corgi_bark : MonoBehaviour
             Debug.Log("Corgi Barked!");
             anim.Play("corgi_bark");
         }
+    }
+
+    // Play bark
+    void park_27()
+    {
+        doggo_sound.PlayOneShot(park27);
     }
 
     /*
