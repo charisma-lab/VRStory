@@ -20,20 +20,20 @@ public class park_villain_anim_switch : MonoBehaviour
     {
         if (Input.GetKeyDown("q"))
         {
-            Debug.Log("Gazebo anim");
-            anim.Play("park_anim_gazebo");
+            Debug.Log("Villain reveals themselves!");
+            anim.Play("park_villain_reveal");
         }
 
         if (Input.GetKeyDown("e"))
         {
             Debug.Log("Tree anim");
-            anim.Play("park_anim_tree");
+            anim.Play("park_villain_tree");
         }
 
         if (Input.GetKeyDown("t"))
         {
-            Debug.Log("run+throw");
-            anim.Play("park_run_throw");
+            Debug.Log("villain lures the user away!");
+            anim.Play("park_villain_lure");
         }
 
         if (Input.GetKeyDown("u"))
