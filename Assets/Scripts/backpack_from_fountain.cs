@@ -18,7 +18,7 @@ public class backpack_from_fountain : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("o"))
+        if (Input.GetKeyDown("y"))
         {
             Debug.Log("roboCop Final");
             anim.Play("backpack_present");

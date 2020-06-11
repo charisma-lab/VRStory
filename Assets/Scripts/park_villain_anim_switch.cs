@@ -24,19 +24,19 @@ public class park_villain_anim_switch : MonoBehaviour
             anim.Play("park_villain_reveal");
         }
 
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKeyDown("w"))
         {
             Debug.Log("Tree anim");
             anim.Play("park_villain_tree");
         }
 
-        if (Input.GetKeyDown("t"))
+        if (Input.GetKeyDown("e"))
         {
             Debug.Log("villain lures the user away!");
             anim.Play("park_villain_lure");
         }
 
-        if (Input.GetKeyDown("u"))
+        if (Input.GetKeyDown("t"))
         {
             Debug.Log("villain leaving");
             anim.Play("park_villain_leaves");
