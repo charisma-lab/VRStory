@@ -130,6 +130,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-1638360489948187137
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: park_villain_reveal
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 511106576e02c1b448a6c75154812ec0, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-664196493864261915
 AnimatorState:
   serializedVersion: 5
@@ -200,6 +226,32 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!1102 &291415533970852034
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: park_villain_lure
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 6f64255ae041dc14b9053d90f635ce7a, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &653258702947822449
 AnimatorState:
   serializedVersion: 5
@@ -379,16 +431,16 @@ AnimatorStateMachine:
     m_Position: {x: 550, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6655278086975906584}
-    m_Position: {x: 360, y: 240, z: 0}
+    m_Position: {x: 10, y: 310, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7484711374958502973}
-    m_Position: {x: 360, y: 310, z: 0}
+    m_Position: {x: 30, y: 400, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3354350978696889076}
     m_Position: {x: 60, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 653258702947822449}
-    m_Position: {x: 360, y: 380, z: 0}
+    m_Position: {x: -90, y: 540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3268665680583239909}
     m_Position: {x: 300, y: -40, z: 0}
@@ -400,10 +452,19 @@ AnimatorStateMachine:
     m_Position: {x: 818.93616, y: -87.026566, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6872588850607675753}
-    m_Position: {x: 360, y: 450, z: 0}
+    m_Position: {x: 390, y: 540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2396681744727044779}
     m_Position: {x: -150, y: -90, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -1638360489948187137}
+    m_Position: {x: 350, y: 230, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5730120749780547113}
+    m_Position: {x: 360, y: 330, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 291415533970852034}
+    m_Position: {x: 370, y: 440, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -414,6 +475,32 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 669183293882782612}
+--- !u!1102 &5730120749780547113
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: park_villain_tree
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: eb7441ef5ef1a194190b062ea105c9f2, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &6872588850607675753
 AnimatorState:
   serializedVersion: 5

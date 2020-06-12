@@ -29,30 +29,22 @@ public class roboCop_park : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("q"))
+        {
+            Debug.Log("Give Bag");
+            anim.Play("roboCop_searchingMore");
+        }
         if (Input.GetKeyDown("w"))
         {
             Debug.Log("Give Bag");
-            anim.Play("roboCop_giveBag");
+            anim.Play("roboCop_searchingP2");
         }
-
         if (Input.GetKeyDown("r"))
-        {
-            Debug.Log("Talk Later");
-            anim.Play("roboCop_talkLater");
-        }
-
-        if (Input.GetKeyDown("t"))
-        {
-            Debug.Log("chase");
-            anim.Play("roboCop_chase");
-        }
-
-        if (Input.GetKeyDown("i"))
         {
             Debug.Log("roboCop Fountain");
             anim.Play("roboCop_fountain");
         }
-        if (Input.GetKeyDown("o"))
+        if (Input.GetKeyDown("y"))
         {
             Debug.Log("roboCop Final");
             anim.Play("roboCop_final");
