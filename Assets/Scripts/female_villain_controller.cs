@@ -8,7 +8,9 @@ public class female_villain_controller : MonoBehaviour
     public bool villainMoving = false;  // to prevent double taps
     public GameObject theNote;
     public GameObject theBackpack;
+    public GameObject theCap;      // ref to the cap
     public GameObject friend;     // ref to the friend
+    public GameObject teacher;     // ref to the teacher
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,12 @@ public class female_villain_controller : MonoBehaviour
         }
     }
 
+    // Function called when teacher should sit down
+    void teacherSit()
+    {
+        teacher.GetComponent<Animator>().Play("BasicMotions@SitMed01 - Start");
+    }
+    
     // Function called when villain has moved out of the room
     void villainLeft()
     {
@@ -45,5 +53,11 @@ public class female_villain_controller : MonoBehaviour
     void hideBackpack()
     {
         theBackpack.SetActive(false);
+    }
+
+    //Deactivate Cap
+    void hideCap()
+    {
+        theCap.SetActive(false);
     }
 }

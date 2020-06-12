@@ -49,14 +49,14 @@ public class robot_classroom : MonoBehaviour
     // Robot's Dialogue functions, called from the animations
     void robot11()
     {
-        robot_voice.PlayOneShot(r11);
+        // robot_voice.PlayOneShot(r11); // Commenting out for voiceover
     }
     void robot12()
     {
-        robot_voice.PlayOneShot(r12);
+        // robot_voice.PlayOneShot(r12); // Commenting out for voiceover
     }
     void robot13()
     {
-        robot_voice.PlayOneShot(r13);
+        // robot_voice.PlayOneShot(r13); // Commenting out for voiceover
     }
 }
