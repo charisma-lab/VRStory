@@ -34,7 +34,7 @@ public class roboCop_park : MonoBehaviour
             Debug.Log("Give Bag");
             anim.Play("roboCop_searchingMore");
         }
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("e"))
         {
             Debug.Log("Give Bag");
             anim.Play("roboCop_searchingP2");
