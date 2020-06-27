@@ -6,7 +6,6 @@ public class female_villain_controller : MonoBehaviour
 {
     public Animator anim;   // ref to female villain's animator
     public bool villainMoving = false;  // to prevent double taps
-    public GameObject theNote;
     public GameObject theBackpack;
     public GameObject theCap;      // ref to the cap
     public GameObject friend;     // ref to the friend
@@ -29,6 +28,11 @@ public class female_villain_controller : MonoBehaviour
             // also get the villain's friend to stop talking and being idle
             friend.GetComponent<Animator>().Play("friend_turns_away");
         }
+
+        if (Input.GetKeyDown("l") && villainMoving)
+        {
+            anim.Play("villain_classroom_leaving_with_cap");
+        }
     }
 
     // Function called when teacher should sit down
@@ -41,12 +45,6 @@ public class female_villain_controller : MonoBehaviour
     void villainLeft()
     {
         villainMoving = false;
-    }
-
-    // Activate Note and 
-    void showNote()
-    { 
-        theNote.SetActive(true);
     }
 
     //Deactivate Backpack
