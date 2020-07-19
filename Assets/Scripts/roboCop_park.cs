@@ -8,22 +8,24 @@ public class roboCop_park : MonoBehaviour
     // public bool villainMoving = false;  // to prevent double taps
     // public GameObject theNote;
     // public GameObject theBackpack;
-    public AudioSource robo_sound;
+   /* public AudioSource robo_sound;*/
+    public GameObject electricSpark;
+    public AudioClip electricSparkSound;
 
-    public AudioClip park21;
+    /*public AudioClip park21;
     public AudioClip park22;
     public AudioClip park23;
     public AudioClip park24;
     public AudioClip park25;
     public AudioClip park26;
     public AudioClip park27;
-
+*/
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
 
-        robo_sound = GetComponent<AudioSource>();
+        //robo_sound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -48,9 +50,21 @@ public class roboCop_park : MonoBehaviour
         {
             Debug.Log("roboCop Final");
             anim.Play("roboCop_final");
+
         }
     }
 
+    public void electricSparkEffectOn()
+    {
+        electricSpark.SetActive(true);
+        //roboSound.PlayOneShot(electricSparkSound);
+    }
+
+    public void electricSparkEffectOff()
+    {
+        electricSpark.SetActive(false);
+    }
+    /*
     void park_21()
     {
         robo_sound.PlayOneShot(park21);
@@ -78,7 +92,7 @@ public class roboCop_park : MonoBehaviour
     void park_27()
     {
         robo_sound.PlayOneShot(park27);
-    }
+    }*/
     /*
     // Function called when villain has moved out of the room
     void villainLeft()
