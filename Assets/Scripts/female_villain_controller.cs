@@ -8,6 +8,7 @@ public class female_villain_controller : MonoBehaviour
     public bool villainMoving = false;  // to prevent double taps
     public GameObject theBackpack;
     public GameObject theCap;      // ref to the cap
+    public GameObject theGown;      // ref to the gown
     public GameObject friend;     // ref to the friend
     public GameObject teacher;     // ref to the teacher
 
@@ -57,5 +58,6 @@ public class female_villain_controller : MonoBehaviour
     void hideCap()
     {
         theCap.SetActive(false);
+        theGown.SetActive(false);
     }
 }
