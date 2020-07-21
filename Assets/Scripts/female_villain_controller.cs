@@ -21,7 +21,7 @@ public class female_villain_controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("v") && !villainMoving)
+        if (Input.GetKeyDown("s") && !villainMoving)
         {
             Debug.Log("Villain triggered!");
             villainMoving = true;
@@ -30,9 +30,15 @@ public class female_villain_controller : MonoBehaviour
             friend.GetComponent<Animator>().Play("friend_turns_away");
         }
 
-        if (Input.GetKeyDown("l") && villainMoving)
+        if (Input.GetKeyDown("d") && villainMoving)
         {
             anim.Play("villain_classroom_leaving_with_cap");
+            villainMoving = false;
+        }
+
+        if (Input.GetKeyDown("v"))
+        {
+            anim.Play("villain_speaks");
         }
     }
 

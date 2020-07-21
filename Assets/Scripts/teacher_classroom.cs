@@ -16,10 +16,15 @@ public class teacher_classroom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("c"))
+        if (Input.GetKeyDown("a"))
         {
             Debug.Log("Teacher triggered!");
             anim.Play("BasicMotions@SitMed01 - End");
+        }
+        if (Input.GetKeyDown("t"))
+        {
+            Debug.Log("Teacher talking!");
+            anim.Play("teacher_talks");
         }
     }
 }

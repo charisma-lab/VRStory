@@ -6,6 +6,7 @@ public class robot_classroom : MonoBehaviour
 {
     public Animator anim;   // ref to robot's animator
     public UnityEngine.Renderer robotButtonRenderer;   // ref to robot's renderer
+    public AudioClip siren;    
     public AudioClip r11;
     public AudioClip r12;
     public AudioClip r13;
@@ -24,16 +25,21 @@ public class robot_classroom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("r"))
+        if (Input.GetKeyDown("f"))
+        {
+            robot_voice.PlayOneShot(siren);
+        }
+        if (Input.GetKeyDown("g"))
         {
             Debug.Log("Robot triggered!");
             anim.Play("robot_classroom_enter");
         }
-        if (Input.GetKeyDown("t"))
+        if (Input.GetKeyDown("h"))
         {
             Debug.Log("Robot triggered!");
             anim.Play("robot_classroom_spin_lightup");
         }
+
     }
 
     // Function to change color of button when spinning, called by the animation

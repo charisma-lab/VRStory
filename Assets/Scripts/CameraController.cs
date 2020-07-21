@@ -51,12 +51,12 @@ public class CameraController : MonoBehaviour
         // Turn Right
         else if (!Input.GetKey(KeyCode.LeftShift) && !Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(new Vector3(0,10 * speed * Time.deltaTime, 0));
+            transform.Rotate(new Vector3(0,20 * speed * Time.deltaTime, 0));
         }
         // Turn Left
         else if (!Input.GetKey(KeyCode.LeftShift) && !Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(new Vector3(0,-10 * speed * Time.deltaTime, 0));
+            transform.Rotate(new Vector3(0,-20 * speed * Time.deltaTime, 0));
         }
 
 
