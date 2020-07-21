@@ -18,25 +18,25 @@ public class park_villain_anim_switch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("q"))
+        if (Input.GetKeyDown("1"))
         {
             Debug.Log("Villain reveals themselves!");
             anim.Play("park_villain_reveal");
         }
 
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("2"))
         {
             Debug.Log("Tree anim");
             anim.Play("park_villain_tree");
         }
 
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKeyDown("3"))
         {
             Debug.Log("villain lures the user away!");
             anim.Play("park_villain_lure");
         }
 
-        if (Input.GetKeyDown("t"))
+        if (Input.GetKeyDown("5"))
         {
             Debug.Log("villain leaving");
             anim.Play("park_villain_leaves");
