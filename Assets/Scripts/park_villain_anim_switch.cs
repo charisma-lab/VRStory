@@ -36,7 +36,7 @@ public class park_villain_anim_switch : MonoBehaviour
             anim.Play("park_villain_lure");
         }
 
-        if (Input.GetKeyDown("t"))
+        if (Input.GetKeyDown("r"))
         {
             Debug.Log("villain leaving");
             anim.Play("park_villain_leaves");
