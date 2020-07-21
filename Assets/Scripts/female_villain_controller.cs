@@ -6,9 +6,9 @@ public class female_villain_controller : MonoBehaviour
 {
     public Animator anim;   // ref to female villain's animator
     public bool villainMoving = false;  // to prevent double taps
-    public GameObject theNote;
     public GameObject theBackpack;
     public GameObject theCap;      // ref to the cap
+    public GameObject theGown;      // ref to the gown
     public GameObject friend;     // ref to the friend
     public GameObject teacher;     // ref to the teacher
 
@@ -21,13 +21,24 @@ public class female_villain_controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("v") && !villainMoving)
+        if (Input.GetKeyDown("s") && !villainMoving)
         {
             Debug.Log("Villain triggered!");
             villainMoving = true;
             anim.Play("villain_classroom_turning");
             // also get the villain's friend to stop talking and being idle
             friend.GetComponent<Animator>().Play("friend_turns_away");
+        }
+
+        if (Input.GetKeyDown("d") && villainMoving)
+        {
+            anim.Play("villain_classroom_leaving_with_cap");
+            villainMoving = false;
+        }
+
+        if (Input.GetKeyDown("v"))
+        {
+            anim.Play("villain_speaks");
         }
     }
 
@@ -43,12 +54,6 @@ public class female_villain_controller : MonoBehaviour
         villainMoving = false;
     }
 
-    // Activate Note and 
-    void showNote()
-    { 
-        theNote.SetActive(true);
-    }
-
     //Deactivate Backpack
     void hideBackpack()
     {
@@ -59,5 +64,6 @@ public class female_villain_controller : MonoBehaviour
     void hideCap()
     {
         theCap.SetActive(false);
+        theGown.SetActive(false);
     }
 }
